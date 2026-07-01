@@ -1,0 +1,96 @@
+.hero {
+    padding: 60px 20px 40px;
+}
+
+.hero h1 {
+    color: #fff;
+}
+
+.hero p {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* Action cards */
+.action-card {
+    border: none;
+    border-radius: 16px;
+    background-color: #ffffff;
+    color: #1e1e1e;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.action-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+}
+
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #e7f1ff;
+    color: #1e96fc;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Kept for compatibility if used elsewhere */
+.oval-box-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.oval-box {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #71816d;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.oval-box:hover {
+    background-color: #0056b3;
+}
+.form-card {
+    border: none;
+    border-radius: 16px;
+    background-color: #ffffff;
+    color: #1e1e1e;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.form-card .form-label {
+    color: #1e1e1e;
+}
+
+.form-card .form-text {
+    color: #6c757d;
+}
+.detail-card {
+    border: none;
+    border-radius: 16px;
+    background-color: #ffffff;
+    color: #1e1e1e;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.tech-badge {
+    background-color: #e7f1ff;
+    color: #0b6ecb;
+    font-weight: 500;
+    font-size: 0.85rem;
+    padding: 6px 12px;
+    border-radius: 20px;
+}

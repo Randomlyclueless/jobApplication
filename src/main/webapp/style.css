@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(135deg, #1e96fc 0%, #0b6ecb 100%);
+    color: #fff;
+    min-height: 100vh;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.cdClass {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+footer small {
+    color: rgba(255, 255, 255, 0.8);
+}
